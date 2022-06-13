@@ -1,0 +1,159 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-family: 'Roboto Mono', monospace;
+   background-color: black;
+   color: white;
+   font-size: 100%;
+}
+#body-index, #body-crear-cuenta {
+   display: grid;
+   grid-template-columns: auto;
+}
+.header-index, .header-htmls-crear-cuenta {
+   position: fixed;
+   display: flex;
+   padding-left: 2%;
+   padding-top: 3%;
+   gap: 7em;
+   width: 100%;
+   background-color: black;
+   padding-bottom: 2%;
+   border-bottom: 0.1em ridge rgb(43, 43, 43);
+}
+.header-htmls {
+   position: fixed;
+   display: flex;
+   gap: 7em;
+   margin-right: -20%;
+   padding-right: 20%;
+   padding-left: 2%;
+   margin-top: -17%;
+   padding-top: 10%;
+   background-color: black;
+   padding-bottom: 2%;
+   border-bottom: 0.1em;
+   border-bottom-style: ridge;
+   border-bottom-color: rgb(43, 43, 43);   
+}
+li {
+   list-style-type: none;
+}
+.link-header-div {
+   text-decoration: none;
+   color: white;
+   text-transform: uppercase;
+}
+#imagen-ico-index {
+   width: 2em;
+   height: 2.4em;
+   transition: all 2s;
+}
+.cabeza  {
+   padding-left: 12%;
+   padding-top: 10%;
+}
+main {
+   font-family: sans-serif;
+}
+.parrafo1 {
+   padding-right: 16%;
+   line-height: 200%;
+}
+#imagen-video {
+   padding-left: 12%;
+}
+.image1  {
+   border-radius: 4%;
+   width: 30%;
+   height: 90%;
+}
+.video1  {
+   margin-left: 4%;
+   height: 92%;
+   width: 50%;
+   border-radius: 4%;
+}
+.video1:hover {
+   animation-duration: 4s;
+   animation-direction: normal;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+   animation-name: torardovich;
+}
+@keyframes torardovich{
+   0%{
+      transform: translate(0%, 0%);
+   }
+   100%{
+      transform: translate(-77%, 0%);
+   }
+}
+.video1:hover
+.texto1-cc {
+   margin-left: 12%;
+   margin-top: 10%;
+   font-size: 2.4em;
+}
+input  {
+   margin-left: 12%;
+   margin-top: 0.3%;
+}
+.button1-cc  {
+   background-color: blue;
+   color: white;
+   border-color: blue;
+   margin-left: 60%;
+   
+}
+.soporte1 {
+   margin-top: 10%;
+   margin-right: 30%;
+   text-align: center;
+}
+.footer-conocenos  {
+   margin-top: 28%;
+}
+.footer-crear-cuenta  {
+   margin-top: 5%;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+.footer-iniciar-sesion {
+   margin-top: 17%;
+   margin-left: 8%;
+   margin-right: 8%;
+}
+.spa-li-fo {
+   color: rgb(0, 177, 177);
+}
+.li-fo {
+   text-decoration: none;
+}
+.button-div {
+   margin-right: 72%;
+   margin-top: 3%;
+}
+.input-div {
+   background-color: rgba(49, 49, 49, 0.966);
+   border: none;
+   width: 16em;
+   padding: 0.3%;
+}
+footer {
+   padding-bottom: 1.35%;
+}
+
+@media (max-width: 800px){
+   .header-index, .header-htmls-crear-cuenta {
+      gap: 2em;
+   }
+   .header-htmls{
+      gap: 2em;
+   }
+}
+
+
+

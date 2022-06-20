@@ -1,10 +1,14 @@
 @use 'navfooter';
+$fontfamily: (
+    "monospace": ('Roboto Mono', monospace),
+    "franklin": ('Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif),
+);
 * {
     margin: 0;
     padding: 0;
 }
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: map-get($map: $fontfamily, $key: monospace);
     background-color: black;
     color: white;
     font-size: 100%;
@@ -60,6 +64,7 @@ main {
     font-family: sans-serif;
 }
 .main-index{
+   @extend main;
    padding-top: 8em;
 }
 .parrafo1 {
@@ -140,11 +145,14 @@ input  {
     margin-right: 72%;
     margin-top: 3%;
 }
-.input-div {
+@mixin input_div {
     background-color: rgba(49, 49, 49, 0.966);
     border: none;
     width: 16em;
     padding: 0.3%;
+}
+.input-div {
+   @include input_div();
 }
 footer {
     padding-bottom: 1.35%;

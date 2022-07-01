@@ -20,12 +20,9 @@ body {
     nav {
         div {
             ul{
-                gap: 30%;
-                .header-ul-div{
-                    gap: 10%;
-                }
-                .header-ul-div2{
-                    gap: 30%;
+                gap: 2%;
+                .li-facebook {
+                    padding-left: 30%;
                 }
             }
         }
@@ -206,17 +203,16 @@ footer {
     .header-general {
         font-family: "Lucida Console", Courier, monospace;
         font-size: 0.72em;
-        background-color: navfooter.$fontfamilygeneralulfooter;
+        background-color: #ffe598;
         nav {
             div {
                 ul{
-                    gap: 40%;
-                    .header-ul-div{
-                        gap: 10%;
-                        margin-left: -10%;
+                    gap: 2%;
+                    .li-facebook {
+                        padding-left: 5%;
                     }
-                    .header-ul-div2{
-                        gap: 30%;
+                    .icono-li {
+                        margin-left: -10%;
                     }
                 }
             }

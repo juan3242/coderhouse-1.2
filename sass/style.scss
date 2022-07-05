@@ -17,6 +17,7 @@ body {
     font-family: map-get($map: $fontfamily, $key: monospace);
     font-size: 1em;
     background-color: navfooter.$fffooterbgcolor;
+    position: fixed;
     nav {
         div {
             ul{
@@ -84,10 +85,10 @@ main {
     section {
         img {
             width: 70%;
+            
         }
         p {
             background-color: rgb(233, 233, 233);
-            position: relative;
             margin-left: 30%;
             margin-right: 30%;
             margin-top: -10%;
@@ -140,6 +141,7 @@ main {
 .main-alimentacion {
     padding-top: 10em;
     padding-bottom: 5%;
+    font-size: 80%;
     h1 {
         text-align: center;
         font-family: map-get($map: $fontfamily, $key: Georgia);
@@ -183,6 +185,7 @@ footer {
     font-family: map-get($map: $fontfamily, $key: monospace);
     form {
         input {
+            margin-left: 18%;
             padding-left: 24.5%;
             padding-right: 24.5%;
         }
@@ -220,6 +223,9 @@ footer {
     }
     .footer-index{
         form {
+            input {
+                margin-left: 0%;
+            }
             div {
                 input {
                     padding-left: 42.5%;

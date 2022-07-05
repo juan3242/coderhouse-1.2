@@ -14,6 +14,7 @@ body {
   font-family: "Lucida Console", Courier, monospace;
   font-size: 1em;
   background-color: #ffe598;
+  position: fixed;
 }
 .header-general nav div ul {
   gap: 2%;
@@ -80,7 +81,6 @@ main, .main-index {
 }
 .main-sobre-mi section p {
   background-color: rgb(233, 233, 233);
-  position: relative;
   margin-left: 30%;
   margin-right: 30%;
   margin-top: -10%;
@@ -131,6 +131,7 @@ main, .main-index {
 .main-alimentacion {
   padding-top: 10em;
   padding-bottom: 5%;
+  font-size: 80%;
 }
 .main-alimentacion h1 {
   text-align: center;
@@ -177,6 +178,7 @@ footer {
   font-family: "Lucida Console", Courier, monospace;
 }
 .footer-index form input {
+  margin-left: 18%;
   padding-left: 24.5%;
   padding-right: 24.5%;
 }
@@ -204,6 +206,9 @@ footer {
   }
   .header-general nav div ul .icono-li {
     margin-left: -10%;
+  }
+  .footer-index form input {
+    margin-left: 0%;
   }
   .footer-index form div input {
     padding-left: 42.5%;

@@ -83,7 +83,6 @@ main, .main-index {
   background-color: rgb(233, 233, 233);
   margin-left: 30%;
   margin-right: 30%;
-  margin-top: -10%;
   padding: 3%;
   font-family: "Lucida Console", Courier, monospace;
 }
@@ -131,7 +130,6 @@ main, .main-index {
 .main-alimentacion {
   padding-top: 10em;
   padding-bottom: 5%;
-  font-size: 80%;
 }
 .main-alimentacion h1 {
   text-align: center;
@@ -192,7 +190,7 @@ footer {
   border: 0.1em, ridge;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .header-general {
     font-family: "Lucida Console", Courier, monospace;
     font-size: 0.72em;
@@ -213,6 +211,9 @@ footer {
   .footer-index form div input {
     padding-left: 42.5%;
     padding-right: 42.5%;
+  }
+  .main-alimentacion p {
+    padding: 5%;
   }
 }
 
